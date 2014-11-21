@@ -1,0 +1,36 @@
+Release 10.1 - xst K.31 (nt)
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to ./xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.21 secs
+ 
+--> 
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "D:/CPU_T/ADD.vhd" in Library work.
+Architecture add of Entity add is up to date.
+Compiling vhdl file "D:/CPU_T/ADD_tb.vhd" in Library work.
+Entity <ADD_tb> compiled.
+ERROR:HDLParsers:164 - "D:/CPU_T/ADD_tb.vhd" Line 58. parse error, unexpected OPENPAR, expecting COMMA or COLON
+ERROR:HDLParsers:163 - "D:/CPU_T/ADD_tb.vhd" Line 58. Unexpected symbol read: _.
+ERROR:HDLParsers:163 - "D:/CPU_T/ADD_tb.vhd" Line 70. Unexpected symbol read: _.
+ERROR:HDLParsers:164 - "D:/CPU_T/ADD_tb.vhd" Line 70. parse error, unexpected PROCESS, expecting OPENPAR or TICK or LSQBRACK
+ERROR:HDLParsers:163 - "D:/CPU_T/ADD_tb.vhd" Line 73. Unexpected symbol read: _.
+ERROR:HDLParsers:164 - "D:/CPU_T/ADD_tb.vhd" Line 75. parse error, unexpected WAIT
+ERROR:HDLParsers:163 - "D:/CPU_T/ADD_tb.vhd" Line 75. Unexpected symbol read: _.
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.27 secs
+ 
+--> 
+
+Total memory usage is 175472 kilobytes
+
+Number of errors   :    7 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

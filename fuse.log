@@ -1,0 +1,75 @@
+Determining compilation order of HDL files
+Analyzing VHDL file SBB.vhd
+Restoring VHDL parse-tree ieee.std_logic_1164 from
+c:/xilinx/10.1/ise/vhdl/hdp/nt/ieee/std_logic_1164.vdb
+Restoring VHDL parse-tree std.standard from
+c:/xilinx/10.1/ise/vhdl/hdp/nt/std/standard.vdb
+Analyzing VHDL file PC.vhd
+Analyzing VHDL file NEG.vhd
+Analyzing VHDL file BIT_XOR.vhd
+Analyzing VHDL file BIT_OR.vhd
+Analyzing VHDL file BIT_NOT.vhd
+Analyzing VHDL file BIT_AND.vhd
+Analyzing VHDL file ADD_R.vhd
+Analyzing VHDL file ADDC.vhd
+Analyzing VHDL file SR.vhd
+Analyzing VHDL file Register.vhd
+Analyzing VHDL file PC_ctl.vhd
+Restoring VHDL parse-tree ieee.std_logic_unsigned from
+c:/xilinx/10.1/ise/vhdl/hdp/nt/ieee/std_logic_unsigned.vdb
+Restoring VHDL parse-tree ieee.std_logic_arith from
+c:/xilinx/10.1/ise/vhdl/hdp/nt/ieee/std_logic_arith.vdb
+Analyzing VHDL file ALU.vhd
+Analyzing VHDL file ADD_ctl.vhd
+Analyzing VHDL file CU.vhd
+Analyzing VHDL file cutb.vhw
+Restoring VHDL parse-tree ieee.std_logic_textio from
+c:/xilinx/10.1/ise/vhdl/hdp/nt/ieee/std_logic_textio.vdb
+Restoring VHDL parse-tree std.textio from
+c:/xilinx/10.1/ise/vhdl/hdp/nt/std/textio.vdb
+Saving VHDL parse-tree work.sbb into d:/cpu_t/isim/work/sbb.vdb
+Saving VHDL parse-tree work.pc_reg into d:/cpu_t/isim/work/pc_reg.vdb
+Saving VHDL parse-tree work.neg into d:/cpu_t/isim/work/neg.vdb
+Saving VHDL parse-tree work.bit_xor into d:/cpu_t/isim/work/bit_xor.vdb
+Saving VHDL parse-tree work.bit_or into d:/cpu_t/isim/work/bit_or.vdb
+Saving VHDL parse-tree work.bit_not into d:/cpu_t/isim/work/bit_not.vdb
+Saving VHDL parse-tree work.bit_and into d:/cpu_t/isim/work/bit_and.vdb
+Saving VHDL parse-tree work.add_r into d:/cpu_t/isim/work/add_r.vdb
+Saving VHDL parse-tree work.addc into d:/cpu_t/isim/work/addc.vdb
+Saving VHDL parse-tree work.sr into d:/cpu_t/isim/work/sr.vdb
+Saving VHDL parse-tree work.reg into d:/cpu_t/isim/work/reg.vdb
+Saving VHDL parse-tree work.pc_ctl into d:/cpu_t/isim/work/pc_ctl.vdb
+Saving VHDL parse-tree work.alu into d:/cpu_t/isim/work/alu.vdb
+Saving VHDL parse-tree work.adr_ctl into d:/cpu_t/isim/work/adr_ctl.vdb
+Saving VHDL parse-tree work.cu into d:/cpu_t/isim/work/cu.vdb
+Saving VHDL parse-tree work.cutb into d:/cpu_t/isim/work/cutb.vdb
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 146860 Kb
+Fuse CPU Usage: 748 ms
+Using precompiled package standard from library std
+Using precompiled package std_logic_1164 from library ieee
+Using precompiled package textio from library std
+Using precompiled package std_logic_textio from library ieee
+Using precompiled package std_logic_arith from library ieee
+Using precompiled package std_logic_unsigned from library ieee
+Compiling architecture bitand of entity bit_and [bit_and_default]
+Compiling architecture bitor of entity bit_or [bit_or_default]
+Compiling architecture bitnot of entity bit_not [bit_not_default]
+Compiling architecture bitxor of entity bit_xor [bit_xor_default]
+Compiling architecture addwc of entity addc [addc_default]
+Compiling architecture sbb of entity sbb [sbb_default]
+Compiling architecture neg of entity neg [neg_default]
+Compiling architecture behavioral of entity alu [alu_default]
+Compiling architecture regar of entity pc_reg [pc_reg_default]
+Compiling architecture structure of entity pc_ctl [pc_ctl_default]
+Compiling architecture behavioral of entity reg [reg_default]
+Compiling architecture struct of entity add_r [add_r_default]
+Compiling architecture behavioral of entity adr_ctl [adr_ctl_default]
+Compiling architecture behavioral of entity sr [sr_default]
+Compiling architecture cpu_struct of entity cu [cu_default]
+Compiling architecture testbench_arch of entity cutb
+Compiled 37 VHDL Units
+Built simulation executable cutb_isim_beh.exe
+Fuse Memory Usage: 148252 Kb
+Fuse CPU Usage: 1107 ms

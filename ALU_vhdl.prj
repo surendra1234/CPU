@@ -1,0 +1,8 @@
+vhdl work "D:\CPU_T\SBB.vhd"
+vhdl work "D:\CPU_T\NEG.vhd"
+vhdl work "D:\CPU_T\BIT_XOR.vhd"
+vhdl work "D:\CPU_T\BIT_OR.vhd"
+vhdl work "D:\CPU_T\BIT_NOT.vhd"
+vhdl work "D:\CPU_T\BIT_AND.vhd"
+vhdl work "D:\CPU_T\ADDC.vhd"
+vhdl work "D:\CPU_T\ALU.vhd"

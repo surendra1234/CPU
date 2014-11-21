@@ -1,0 +1,41 @@
+Release 10.1 - xst K.31 (nt)
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to ./xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.33 secs
+ 
+--> 
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "D:/CPU_T/BIT_AND.vhd" in Library work.
+Architecture bitand of Entity bit_and is up to date.
+Compiling vhdl file "D:/CPU_T/BIT_OR.vhd" in Library work.
+Architecture bitor of Entity bit_or is up to date.
+Compiling vhdl file "D:/CPU_T/BIT_NOT.vhd" in Library work.
+Architecture bitnot of Entity bit_not is up to date.
+Compiling vhdl file "D:/CPU_T/BIT_XOR.vhd" in Library work.
+Architecture bitxor of Entity bit_xor is up to date.
+Compiling vhdl file "D:/CPU_T/ADDC.vhd" in Library work.
+Architecture addwc of Entity addc is up to date.
+Compiling vhdl file "D:/CPU_T/SBB.vhd" in Library work.
+Architecture sbb of Entity sbb is up to date.
+Compiling vhdl file "D:/CPU_T/NEG.vhd" in Library work.
+Architecture neg of Entity neg is up to date.
+Compiling vhdl file "D:/CPU_T/ALU.vhd" in Library work.
+Architecture behavioral of Entity alu is up to date.
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.58 secs
+ 
+--> 
+
+Total memory usage is 176624 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

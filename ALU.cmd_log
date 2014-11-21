@@ -1,0 +1,1 @@
+xst -ise "D:/CPU_T/CPU_T.ise" -intstyle ise -ifn "D:/CPU_T/ALU.xst" -ofn "D:/CPU_T/ALU.syr"

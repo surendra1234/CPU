@@ -1,0 +1,47 @@
+Command line:
+   ./cutb_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  50257
+
+Sat Apr 20 02:56:54 2013
+
+Total Line Count : 70
+
+ Elaboration Time: 0.0156 sec
+
+ Current Memory Usage: 196.735 Meg
+
+ Total Signals          : 142
+ Total Nets             : 530
+ Total Signal Drivers   : 130
+ Total Blocks           : 53
+ Total Primitive Blocks : 11
+ Total Processes        : 118
+ Total Traceable Variables  : 52
+ Total Scalar Nets and Variables : 1468
+ntrace select -o on -n /cutb/ins_data 
+ntrace select -o on -n /cutb/ins_addr 
+ntrace select -o on -n /cutb/ins_req 
+ntrace select -o on -n /cutb/ins_ack 
+ntrace select -o on -n /cutb/clock 
+ntrace select -o on -n /cutb/dat_addr 
+ntrace select -o on -n /cutb/dat_data 
+ntrace select -o on -n /cutb/dat_read 
+ntrace select -o on -n /cutb/dat_req 
+ntrace select -o on -n /cutb/dat_ack 
+ntrace select -o on -n /cutb/test 
+ntrace select -o on -n /cutb/regout1 
+ntrace select -o on -n /cutb/regout2 
+ntrace select -o on -n /cutb/alout 
+ntrace start 
+isimrun 1000 ns 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+
+ Total Simulation Time: 0.0936 sec
+
+ Current Memory Usage: 212.791 Meg
+
+Sat Apr 20 02:57:31 2013
+

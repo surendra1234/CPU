@@ -1,0 +1,14 @@
+D:/CPU_T/SR.vhd
+D:/CPU_T/ADD_R.vhd
+D:/CPU_T/ADD_ctl.vhd
+D:/CPU_T/Register.vhd
+D:/CPU_T/PC.vhd
+D:/CPU_T/PC_ctl.vhd
+D:/CPU_T/NEG.vhd
+D:/CPU_T/SBB.vhd
+D:/CPU_T/BIT_XOR.vhd
+D:/CPU_T/BIT_NOT.vhd
+D:/CPU_T/BIT_OR.vhd
+D:/CPU_T/BIT_AND.vhd
+D:/CPU_T/CU.vhd
+D:/CPU_T/cutb.vhw
